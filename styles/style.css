@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #cadae3;
+}
+
+.regular-technicalwritting {
+  font-family: 'Arvo', serif;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.petite-technicalwritting {
+  font-family: 'Arvo', serif;
+  font-size: 0.75rem;
+}
+
+.regular-handwritting {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.petite-handwritting {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.petite-logo {
+  width: 100px;
+  height: auto;
+}
+
+.centered-container {
+  margin: 0 20%;
+}
+
+#nav-bar {
+    position: sticky; 
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #042037;
+}
+
+nav {
+  padding-right: 5%;
+}
+
+nav a {
+  color: #cadae3;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #042037;
+}
+
+footer p, a {
+  color: #cadae3;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+#contact {
+  padding-left: 3px;
+}
+
+*::-webkit-scrollbar {
+  width: 19px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #042037;
+  border-radius: 10px;
+  border: 3px solid #cadae3;
+}
